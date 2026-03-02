@@ -1,6 +1,8 @@
 package com.jai.spring.boot.model;
 
-@Entity
+import jakarta.persistence.*;
+
+@Entity 
 public class User {
 
     @Id

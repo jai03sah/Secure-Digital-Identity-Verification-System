@@ -1,10 +1,10 @@
 package com.jai.spring.boot.model;
 
-import org.springframework.stereotype.Indexed;
+import jakarta.persistence.*;
 
-@Entity 
+@Entity  
 public class Document {
-    @Id 
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
