@@ -1,9 +1,13 @@
 package com.jai.spring.boot.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
+import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import com.jai.spring.boot.model.Document;
 import com.jai.spring.boot.service.DocumentService;
+
 @RestController
 @RequestMapping("/documents")
 public class DocumentController {
